@@ -32,5 +32,5 @@ go mod tidy
 *todo:Explicação*
 
 ## Referências
-*[Aprenda Go com Testes](https://larien.gitbook.io/aprenda-go-com-testes/)
-*[Docs Golang](https://go.dev/doc/)
+- *[Aprenda Go com Testes](https://larien.gitbook.io/aprenda-go-com-testes/)
+- *[Docs Golang](https://go.dev/doc/)
