@@ -14,22 +14,22 @@ Go é expressivo, conciso, limpo e eficiente. Seus mecanismos de simultaneidade 
 ~~~ go
 go mod init [packag]
 ~~~
-*Explicação*
+*todo:Explicação*
 
 ~~~ go
 go test
 ~~~
-*Explicação*
+*todo:Explicação*
 
 ~~~ go
 go build
 ~~~
-*Explicação*
+*todo:Explicação*
 
 ~~~ go
 go mod tidy
 ~~~
-*Explicação*
+*todo:Explicação*
 
 ## Referências
 *[Aprenda Go com Testes](https://larien.gitbook.io/aprenda-go-com-testes/)
