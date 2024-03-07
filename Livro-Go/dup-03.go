@@ -8,16 +8,16 @@ import (
 )
 
 func main() {
+	filename := "texto.txt"
+
+	data, err := ioutil.ReadFile(filename)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "dup3: %v\n", err)
+		os.Exit(1)
+	}
 	counts := make(map[string]int)
-	for _, filename := range os.Args[1:] {
-		data, err := ioutil.ReadFile(filename)
-		if err != nil {
-			fmt.Fprintf(os.Stderr, "dup3: %v\n", err)
-			continue
-		}
-		for _, line := range strings.Split(string(data), "\n") {
-			counts[line]++
-		}
+	for _, line := range strings.Split(string(data), "\n") {
+		counts[line]++
 	}
 	for line, n := range counts {
 		if n > 1 {
